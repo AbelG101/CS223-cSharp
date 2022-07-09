@@ -1,0 +1,11 @@
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\bin\Debug\WindowsFormsApp1(lab).exe.config
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\bin\Debug\WindowsFormsApp1(lab).exe
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\bin\Debug\WindowsFormsApp1(lab).pdb
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1(lab).csproj.AssemblyReference.cache
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1(lab).csproj.SuggestedBindingRedirects.cache
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1_lab_.Form1.resources
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1_lab_.Properties.Resources.resources
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1(lab).csproj.GenerateResource.cache
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1(lab).csproj.CoreCompileInputs.cache
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1(lab).exe
+C:\Users\Abel G\Desktop\Files\Projects\C#\labClass\WindowsFormsApp1(lab)\WindowsFormsApp1(lab)\obj\Debug\WindowsFormsApp1(lab).pdb
