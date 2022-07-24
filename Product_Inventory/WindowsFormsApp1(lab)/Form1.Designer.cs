@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txt_Num = new System.Windows.Forms.TextBox();
             this.btn_Add = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.Label();
@@ -42,6 +43,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.txt_Date = new System.Windows.Forms.DateTimePicker();
+            this.dtGridView = new System.Windows.Forms.DataGridView();
+            this.errPrvdr = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPrvdr)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_Num
@@ -54,9 +59,9 @@
             // 
             // btn_Add
             // 
-            this.btn_Add.Location = new System.Drawing.Point(203, 321);
+            this.btn_Add.Location = new System.Drawing.Point(205, 303);
             this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(123, 36);
+            this.btn_Add.Size = new System.Drawing.Size(123, 28);
             this.btn_Add.TabIndex = 2;
             this.btn_Add.Text = "Add";
             this.btn_Add.UseVisualStyleBackColor = true;
@@ -148,9 +153,9 @@
             // 
             // btn_Cancel
             // 
-            this.btn_Cancel.Location = new System.Drawing.Point(428, 321);
+            this.btn_Cancel.Location = new System.Drawing.Point(430, 303);
             this.btn_Cancel.Name = "btn_Cancel";
-            this.btn_Cancel.Size = new System.Drawing.Size(123, 36);
+            this.btn_Cancel.Size = new System.Drawing.Size(123, 28);
             this.btn_Cancel.TabIndex = 2;
             this.btn_Cancel.Text = "Cancel";
             this.btn_Cancel.UseVisualStyleBackColor = true;
@@ -163,11 +168,26 @@
             this.txt_Date.Size = new System.Drawing.Size(280, 22);
             this.txt_Date.TabIndex = 4;
             // 
+            // dtGridView
+            // 
+            this.dtGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtGridView.Location = new System.Drawing.Point(-4, 330);
+            this.dtGridView.Name = "dtGridView";
+            this.dtGridView.RowHeadersWidth = 51;
+            this.dtGridView.RowTemplate.Height = 24;
+            this.dtGridView.Size = new System.Drawing.Size(806, 123);
+            this.dtGridView.TabIndex = 5;
+            // 
+            // errPrvdr
+            // 
+            this.errPrvdr.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dtGridView);
             this.Controls.Add(this.txt_Date);
             this.Controls.Add(this.txtInventoryNum);
             this.Controls.Add(this.txtDate);
@@ -184,6 +204,8 @@
             this.Controls.Add(this.txt_Num);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dtGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errPrvdr)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,6 +226,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btn_Cancel;
         private System.Windows.Forms.DateTimePicker txt_Date;
+        private System.Windows.Forms.DataGridView dtGridView;
+        private System.Windows.Forms.ErrorProvider errPrvdr;
     }
 }
 

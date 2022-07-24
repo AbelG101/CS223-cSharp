@@ -8,6 +8,7 @@ namespace WindowsFormsApp1_lab_.Model
 {
     internal class Product
     {
+        private static List<Product> products = new List<Product>();
         public int Number
         {
             get;
@@ -42,7 +43,12 @@ namespace WindowsFormsApp1_lab_.Model
 
         public void save()
         {
-            Console.WriteLine("Succesfully saved");
+            products.Add(this);
+        }
+
+        public static List<Product> getAllProducts()
+        {
+            return products;
         }
     }
 }
